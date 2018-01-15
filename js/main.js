@@ -71,10 +71,10 @@ var updateStatus = function() {
 
 var cfg = {
   draggable: true,
-  position: 'start',
+  position: '3qk3/8/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq',
   onDragStart: onDragStart,
   onDrop: onDrop,
-  onSnapEnd: onSnapEnd,
+//   onSnapEnd: onSnapEnd,
   orientation: 'black'
 };
 board = ChessBoard('board', cfg);
